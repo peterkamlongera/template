@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
         <link rel="icon" type="image/png" href="./assets/ks-logo-favicon.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     </head>
     <body class="">
 
@@ -17,9 +17,9 @@
             <div class="navbar">
                 <div class="container nav-container">
                     <input class="checkbox" type="checkbox" name="" id="checkbox"/>
-                    <div class="logo">
+                    <!-- <div class="logo">
                         <a href="./index.html"><img src="./assets/tia-logo.png" alt=""></a>
-                    </div>
+                    </div> -->
                     <div class="hamburger-menu">
                         <span class="line line-1"></span>
                         <span class="line line-2"></span>
@@ -27,9 +27,9 @@
                     </div>
                     <ul class="menu-items">
                         <li><a href="#home" id="nav-home">home</a></li>
-                        <li><a href="#about" id="nav-impact">about</a></li>
-                        <li><a href="#services" id="nav-about">services</a></li>
-                        <li><a href="#testimonials" id="nav-contact">testimonials</a></li>
+                        <li><a href="#about" id="nav-about">about</a></li>
+                        <li><a href="#services" id="nav-services">services</a></li>
+                        <li><a href="#testimonials" id="nav-testimonials">testimonials</a></li>
                         <li><a href="#contact-us" id="nav-contact">contact-us</a></li>
                     </ul>
                 </div>
@@ -43,31 +43,110 @@
             </h1>
         </section>
 
+        <!-- Carousel -->
+        <section class="carousel">
+        </section>
+
         <!-- About -->
         <section class="about">
             <h1 class="about-heading">
-                Discover a world of untapped African treasures.
+                African tourism redefined
             </h1>
+            <p class="about-info">
+                Lorem ipsum dolor sit amet consectetur. Sit eu elementum integer ipsum mattis tristique nam urna odio. Fringilla turpis consectetur arcu sed.
+            </p>
+            <button class="primary-btn">
+                Learn more
+            </button>
+            <div class="photo-grid">
+                <span class="grid-item-1"></span>
+                <span class="grid-item-2"></span>
+                <span class="grid-item-3"></span>
+                <span class="grid-item-4"></span>
+                <span class="grid-item-5"></span>
+            </div>
+            <p class="about-info">Lorem ipsum dolor sit amet consectetur. Sit ac vel porttitor diam. Lectus pulvinar velit sed lacus eu egestas enim in facilisis. Varius donec ornare maecenas tellus nisl iaculis ornare pulvinar. Orci neque facilisis odio et in eget elementum nunc.</p>
         </section>
-        <!-- Services -->
 
+        <!-- Services -->
         <section class="services">
             <h1 class="services-heading">
-                Discover a world of untapped African treasures.
+                Choose from our various offerings
             </h1>
+            <div class="services-cards">
+                <div class="service-1">
+                    <a href="#">
+                        <img class="service-img" src="./assets/11.jpg" alt="">
+                        <div class="service-1-info-heading">
+                            <h5 class="service-1-info">Solo Traveling</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-2">
+                    <a href="#">
+                        <img class="service-img" src="./assets/12.jpg" alt="">
+                        <div class="service-2-info-heading">
+                            <h5 class="service-2-info">Comprehensive Trip Planning</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-3">
+                    <a href="#">
+                        <img class="service-img" src="./assets/13.jpg" alt="">
+                        <div class="service-3-info-heading">
+                            <h5 class="service-3-info">Traveling Consultation</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </section>
+
         <!-- Testimonials -->
         <section class="testimonials">
             <h1 class="testimonials-heading">
-                Discover a world of untapped African treasures.
+                <div class="testimonial-1">
+                    <img class="testimonial-img" src="./assets/14.jpg" alt="">
+                    <div class="testimonial-info-heading">
+                        <h5 class="testimonial-info">“Lorem ipsum dolor sit amet consectetur. Sagittis sagittis sem ullamcorper sed. Odio vulputate diam tellus tincidunt ut nibh morbi sed. Pellentesque enim iaculis augue lectus integer sed dictum rhoncus.”</h5>
+                        <span class="testimonial-info">Person Y</span>
+                    </div>
+                </div>
             </h1>
+        </section>
+
+        <!-- Carousel Two -->
+        <section class="carousel-two">
         </section>
 
         <!-- Contact Us -->
         <section class="contact-us">
             <h1 class="contact-us-heading">
-                Discover a world of untapped African treasures.
+                How can I find out more?
             </h1>
+            <p class="contact-us-info">
+                Lorem ipsum dolor sit amet consectetur. Pellentesque aliquam dictum tellus aliquet aliquet nunc neque.
+            </p>
+            <div class="contact-us-form">
+                <input type="email" placeholder="your email address">
+                <!-- <i class="contact-us-send-icon fa-solid fa-paper-plane"> -->
+            </div>
+            <p class="contact-us-terms">Lorem ipsum dolor sit amet consectetur. In odio lacus aliquet lectus ultrices commodo at ac.</p>
+        </section>
+        <section class="footer">
+            <div class="footer-info">
+                <img class="footer-img" src="./assets/tia-logo-2.jpg" alt="">
+                <h5 class="footer-heading">Touring in Africa</h5>
+                <p class="footer-para">African tourism redefined</p>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="insta-icon fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-info-2">
+                <span>Copyright Touring in Africa 2022</span>
+                <span>This website is a Kamlongera Solution</span>
+            </div>
         </section>
 
         <!-- Script -->
