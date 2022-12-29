@@ -220,12 +220,68 @@ a {
 }
 
 .carousel {
-    background-image: url('./assets/1.jpg');
+
+}
+
+.carousel-1-wrapper {
+    display: grid;
+}
+
+.img-1 {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    /* width: 100%; */
     background-repeat: no-repeat;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 100%;
+    animation-name: fade;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+
+@keyframes fade {
+    0% { 
+    opacity: 1;
+    }
+  25% { 
+    opacity: 1;
+    }
+  75% {
+    opacity: 0;
+  }
+    100% { 
+        opacity: 0;
+    }
+}
+
+.img-2 {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 100%;
+    animation-name: fade;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.img-3 {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 100%;
 }
 
 .about {
@@ -518,14 +574,71 @@ a {
 }
 
 .carousel-two {
-    background-image: url('./assets/15.jpg');
+    margin: 3rem 0 0 0;
+}
+
+.carousel-two-wrapper {
+    display: grid;
+}
+
+.img-4 {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    /* width: 100%; */
     background-repeat: no-repeat;
-    margin: 3rem 0 0 0;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 100%;
+    animation-name: fade;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
 }
+
+@keyframes fade {
+    0% { 
+    opacity: 1;
+    }
+  25% { 
+    opacity: 1;
+    }
+  75% {
+    opacity: 0;
+  }
+    100% { 
+        opacity: 0;
+    }
+}
+
+.img-5 {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 100%;
+    animation-name: fade;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+
+.img-6 {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 100%;
+}
+
+
 
 .contact-us {
     background-color: #8BA18C;
@@ -687,6 +800,7 @@ a {
     border-bottom: 1px solid;
     border-color: #456236;
 }
+
 
 @media (max-width: 1200px) {
     .navbar .nav-container a {
