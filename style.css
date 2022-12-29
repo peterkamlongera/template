@@ -215,7 +215,8 @@ a {
 
 .hero-heading {
     text-align: center;
-    font-size: 2.25rem;
+    font-size: 3.75rem;
+    line-height: 2.5rem;
 }
 
 .carousel {
@@ -240,8 +241,9 @@ a {
 .about-heading {
     font-family: "Trochut";
     color: #748759;
-    margin: 1rem 1rem;
-    font-size: 1rem;
+    margin: 3rem 1rem;
+    font-size: 3rem;
+    line-height: 2.5rem;
     font-weight: 200;
 }
 
@@ -250,7 +252,8 @@ a {
     color: #748759;
     text-align: center;
     margin: 1rem 1rem;
-    font-size: 1.125rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
 }
 
 .primary-btn {
@@ -261,7 +264,8 @@ a {
     color: #E4EBE4;
     cursor: pointer;
     margin: 1rem 1rem;
-    font-size: 0.875rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 200;
 }
 
@@ -269,7 +273,7 @@ a {
     display: grid;;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(24, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     width: 100%;
     margin: 1rem 1rem;
 }
@@ -301,7 +305,7 @@ a {
 .grid-item-4 {
     background-image: url('./assets/4.jpg');
     grid-column: 10/18;
-    grid-row: 16/25;
+    grid-row: 18/26;
     background-position: center;
     background-size: cover;
 }
@@ -309,7 +313,7 @@ a {
 .grid-item-5 {
     background-image: url('./assets/9.jpg');
     grid-column: 7/11;
-    grid-row: 8/16;
+    grid-row: 4/17;
     background-position: center;
     background-size: cover;
 }
@@ -327,8 +331,9 @@ a {
 .services-heading {
     font-family: "Trochut";
     color: #748759;
-    margin: 1rem 1rem;
-    font-size: 1rem;
+    margin: 3rem 1rem;
+    font-size: 3rem;
+    line-height: 1rem;
     font-weight: 200;
 }
 
@@ -337,17 +342,19 @@ a {
     color: #748759;
     text-align: center;
     margin: 1rem 1rem;
-    font-size: 1.125rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
 }
 
 .services-cards {
-    max-width: 24rem;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
     display: flex;
     flex-direction: row;
-    margin: auto;
+    /* margin: auto; */
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .service-1 {
@@ -355,7 +362,7 @@ a {
     border: #E4EBE4;
     border-color: #537554;
     background-color: #748759;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
     box-shadow: 0px 2px 10px black;
 }
 
@@ -371,6 +378,8 @@ a {
 .service-1-info {
     color: #E4EBE4;
     text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 200;
     font-family: "Trochut";
 }
@@ -385,7 +394,7 @@ a {
     border: #E4EBE4;
     border-color: #537554;
     background-color: #748759;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
     box-shadow: 0px 2px 10px black;
 }
 
@@ -401,6 +410,8 @@ a {
 .service-2-info {
     color: #E4EBE4;
     text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 200;
     font-family: "Trochut";
 }
@@ -410,7 +421,7 @@ a {
     border: #E4EBE4;
     border-color: #537554;
     background-color: #748759;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
     box-shadow: 0px 2px 10px black;
 }
 
@@ -426,8 +437,39 @@ a {
 .service-3-info {
     color: #E4EBE4;
     text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 200;
     font-family: "Trochut";
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+}
+
+.testimonials-heading {
+    font-family: "Trochut";
+    color: #748759;
+    margin: 3rem 1rem;
+    font-size: 3rem;
+    line-height: 1rem;
+    font-weight: 200;
+}
+
+.testimonials-cards {
+    max-width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    flex-direction: row;
+    /* margin: auto; */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .testimonial-1 {
@@ -459,7 +501,8 @@ a {
 .testimonial-info {
     color: #537554;
     text-align: center;
-    font-size: 0.875rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     font-family: "Trochut";
     margin-top: 1rem;
     font-weight: 200;
@@ -468,7 +511,8 @@ a {
 .testimonial-info-two {
     color: #537554;
     text-align: center;
-    font-size: 0.875rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     font-family: "Gudea";
     margin-top: 1rem;
 }
@@ -480,6 +524,7 @@ a {
     height: 100vh;
     /* width: 100%; */
     background-repeat: no-repeat;
+    margin: 3rem 0 0 0;
 }
 
 .contact-us {
@@ -492,16 +537,18 @@ a {
 
 .contact-us-heading {
     font-family: "Trochut";
-    font-size: 1.125rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
     color: #E4EBE4;
     text-align: left;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem 0 1rem;
     font-weight: 200;
 }
 
 .contact-us-info {
     font-family: "Gudea";
-    font-size: 1.5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
     color: #E4EBE4;
     padding: 1rem 1rem;
 }
@@ -531,29 +578,32 @@ a {
 
 .contact-us-send-icon {
     color: #E4EBE4;
-    font-size: 1.875rem;
+    font-size: 3.75rem;
+    line-height: 2.25rem;
     padding: 1rem 1rem 1rem 0.5rem;
 }
 
 .contact-us-form input {
     padding: 0.875rem 0.5rem;
-    width: 75%;
+    width: 100%;
     /* margin: 1rem 0rem 1rem 0rem; */
     border: 0;
     background-color: #E4EBE4;
     font-family: "Gudea";
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 }
 
 .contact-us-terms {
     font-family: "Gudea";
-    font-size: 0.875rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     color: #E4EBE4;
     padding: 0.5rem 1rem;
 }
 
 .footer {
     width: 100%;
-    height: 50vh;
     display: flex;
     flex-direction: column;
     background-color: #FAEA8B;
@@ -565,30 +615,35 @@ a {
     color: #456236;
     background-color: #FAEA8B;
     padding: 1rem 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-img {
     width: 5%;
-    padding: 1rem 1rem;
+    padding: 0.5rem 0;
 }
 
 .footer-heading {
     font-family: "Trochut";
-    font-size: 1rem;
-    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0.5rem 0;
 }
 
 .footer-para {
     font-family: "Gudea";
-    font-size: 1.125rem;
-    padding: 1rem 1rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    padding: 0.5rem 0;
 }
 
 .footer-icon {
-    font-size: 1.125rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
     display: flex;
     flex-direction: row;
-    padding: 1rem 1rem;
+    padding: 0.5rem 0;
 }
 
 .footer-icon a {
@@ -605,14 +660,18 @@ a {
     flex-direction: column;
     color: #456236;
     font-family: "Trochut";
-    font-size: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.75rem;
     background-color: #FAEA8B;
     padding: 0 1rem 0 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-info-2 span {
-    padding: 0.5rem 1rem;
-    font-size: 1rem; 
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.75rem;
 }
 
 .ks-contact {
@@ -637,24 +696,31 @@ a {
     }
 
     .hero-heading {
-        font-size: 2.875rem;
-        line-height: 2.25rem;
-    }
-
-    .about-heading {
-        font-size: 2.25rem;
+        font-size: 3.75rem;
         line-height: 2.5rem;
     }
 
+    .about-heading {
+        font-size: 3rem;
+        line-height: 2.5rem;
+        margin: 3rem 0;
+    }
+
     .about-info {
-        font-size: 1.75rem;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+
+    .primary-btn {
+        font-size: 1.5rem;
+        font-size: 2rem;
     }
     
     .photo-grid {
         display: grid;;
         grid-template-columns: repeat(16, 1fr);
         grid-template-rows: repeat(24, 1fr);
-        grid-gap: 1rem;
+        grid-gap: 1.875rem;
     }
     
     .grid-item-1 {
@@ -692,83 +758,108 @@ a {
     .grid-item-5 {
         background-image: url('./assets/9.jpg');
         grid-column: 7/11;
-        grid-row: 8/16;
+        grid-row: 4/16;
         background-position: center;
         background-size: cover;
     }
 
     .services-heading {
-        font-size: 2.125rem;
+        font-size: 3rem;
+        line-height: 1rem;
         font-weight: 200;
+        margin: 3rem 0;
     }
     
     .services-info {
-        font-size: 1.75rem;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
     }
 
-    
     .service-1-info {
         font-size: 1.5rem;
+        line-height: 2rem;
         font-weight: 200;
     }
 
     .service-2-info {
         font-size: 1.5rem;
+        line-height: 2rem;
         font-weight: 200;
     }
         
     .service-3-info {
         font-size: 1.5rem;
+        line-height: 2rem;
         font-weight: 200;
+    }
+
+    .testimonials-heading {
+        font-size: 3rem;
+        line-height: 1rem;
+        font-weight: 200;
+        margin: 3rem 0;
     }
 
     .testimonial-info {
         font-size: 1.25rem;
+        line-height: 1.75rem;
         font-weight: 200;
     }
     
     .testimonial-info-two {
         font-size: 1.25rem;
+        line-height: 1.75rem;
     }
 
     .contact-us-heading {
-        font-size: 1.75rem;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
         font-weight: 200;
     }
     
     .contact-us-info {
-        font-size: 2rem;
+        font-size: 2.25rem;
+        line-height: 2.5rem;
     }
 
     .contact-us-send-icon {
-        font-size: 2.5rem;
+        font-size: 3.75rem;
+        line-height: 2.25rem;
+    }
+
+    .contact-us-form input {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
     }
 
     .contact-us-terms {
         font-size: 1.25rem;
+        line-height: 1.75rem;
     }
 
     .footer-heading {
         font-size: 1.5rem;
-
+        line-height: 2rem;
     }
     
     .footer-para {
-        font-size: 1.75rem;
-
+        font-size: 1.875rem;
+        line-height: 2.25rem;
     }
     
     .footer-icon {
-        font-size: 1.75rem;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
     }
 
     .footer-info-2 {
-        font-size: 1rem;
-
+        font-size: 1.25rem;
+        line-height: 1.75rem;
     }
     
     .footer-info-2 span {
-        font-size: 1.5rem; 
+        font-size: 1rem;
+        line-height: 1.75rem;
     }
 
 }
@@ -776,29 +867,36 @@ a {
 @media (max-width: 992px) {
     .navbar .nav-container a {
         font-weight: 500;
-        font-size: 2.5rem;
+        font-size: 3rem;
         padding: 0.7rem;
     }
 
     .hero-heading {
-        font-size: 2.75rem;
-        line-height: 2.25rem;
+        font-size: 3rem;
+        line-height: 2.5rem;
     }
 
     .about-heading {
-        font-size: 2rem;
+        font-size: 2.25rem;
         line-height: 2.5rem;
+        margin: 2rem 0;
     }
 
     .about-info {
         font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .primary-btn {
+        font-size: 1.25rem;
+        font-size: 1.75rem;
     }
     
     .photo-grid {
         display: grid;;
         grid-template-columns: repeat(16, 1fr);
         grid-template-rows: repeat(24, 1fr);
-        grid-gap: 1rem;
+        grid-gap: 1.25rem;
     }
     
     .grid-item-1 {
@@ -812,7 +910,7 @@ a {
     .grid-item-2 {
         background-image: url('./assets/6.jpg');
         grid-column: 11/18;
-        grid-row: 1/11;
+        grid-row: 1/13;
         background-position: center;
         background-size: cover;
     }
@@ -820,7 +918,7 @@ a {
     .grid-item-3 {
         background-image: url('./assets/8.jpg');
         grid-column: 1/9;
-        grid-row: 17/24;
+        grid-row: 19/29;
         background-position: center;
         background-size: cover;
     }
@@ -828,7 +926,7 @@ a {
     .grid-item-4 {
         background-image: url('./assets/4.jpg');
         grid-column: 10/18;
-        grid-row: 16/25;
+        grid-row: 21/29;
         background-position: center;
         background-size: cover;
     }
@@ -836,82 +934,109 @@ a {
     .grid-item-5 {
         background-image: url('./assets/9.jpg');
         grid-column: 7/11;
-        grid-row: 8/16;
+        grid-row: 4/19;
         background-position: center;
         background-size: cover;
     }
 
     .services-heading {
-        font-size: 2rem;
+        font-size: 2.25rem;
+        line-height: 2.25rem;
         font-weight: 200;
+        margin: 2rem 0;
     }
     
     .services-info {
         font-size: 1.5rem;
+        line-height: 2rem;
     }
     
     .service-1-info {
         font-size: 1.25rem;
+        line-height: 1.75rem;
         font-weight: 200;
     }
     
     .service-2-info {
         font-size: 1.25rem;
+        line-height: 1.75rem;
         font-weight: 200;
     }
     
     .service-3-info {
         font-size: 1.25rem;
+        line-height: 1.75rem;
         font-weight: 200;
+    }
+
+    .testimonials-heading {
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+        font-weight: 200;
+        margin: 2rem 0;
     }
 
     .testimonial-info {
         font-size: 1.125rem;
+        line-height: 1.75rem;
         font-weight: 200;
     }
     
     .testimonial-info-two {
         font-size: 1.125rem;
+        line-height: 1.75rem;
     }
 
     .contact-us-heading {
         font-size: 1.5rem;
+        line-height: 2rem;
         font-weight: 200;
     }
     
     .contact-us-info {
-        font-size: 1.875rem;
+        font-size: 2.25rem;
+        line-height: 2.5rem;
     }
 
     .contact-us-send-icon {
-        font-size: 2.25rem;
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+
+    .contact-us-form input {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
     }
 
     .contact-us-terms {
         font-size: 1.125rem;
+        line-height: 1.75rem;
     }
 
     .footer-heading {
         font-size: 1.25rem;
-
+        line-height: 1.75rem;
     }
     
     .footer-para {
         font-size: 1.5rem;
-
+        line-height: 2rem;
     }
     
     .footer-icon {
         font-size: 1.5rem;
+        line-height: 2rem;
     }
 
     .footer-info-2 {
-        font-size: 0.875rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
 
     }
     
     .footer-info-2 span {
-        font-size: 1.25rem; 
+        font-size: 1rem; 
+        line-height: 1.75rem;
     }
 
 
@@ -921,28 +1046,36 @@ a {
     .navbar .nav-container a {
         font-weight: 500;
         font-size: 2.25rem;
+        line-height: 2.5rem;
         padding: 0.7rem;
     }
 
     .hero-heading {
-        font-size: 2.5rem;
-        line-height: 2.125rem;
+        font-size: 2.25rem;
+        line-height: 2.5rem;
     }
 
     .about-heading {
-        font-size: 1.875rem;
-        line-height: 2.25rem;
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        margin: 2rem 0;
     }
 
     .about-info {
         font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .primary-btn {
+        font-size: 1.125rem;
+        font-size: 1.75rem;
     }
     
     .photo-grid {
         display: grid;;
         grid-template-columns: repeat(16, 1fr);
         grid-template-rows: repeat(24, 1fr);
-        grid-gap: 1rem;
+        grid-gap: 1.25rem;
     }
     
     .grid-item-1 {
@@ -956,7 +1089,7 @@ a {
     .grid-item-2 {
         background-image: url('./assets/6.jpg');
         grid-column: 11/18;
-        grid-row: 1/11;
+        grid-row: 2/14;
         background-position: center;
         background-size: cover;
     }
@@ -964,7 +1097,7 @@ a {
     .grid-item-3 {
         background-image: url('./assets/8.jpg');
         grid-column: 1/9;
-        grid-row: 17/24;
+        grid-row: 19/29;
         background-position: center;
         background-size: cover;
     }
@@ -972,7 +1105,7 @@ a {
     .grid-item-4 {
         background-image: url('./assets/4.jpg');
         grid-column: 10/18;
-        grid-row: 16/25;
+        grid-row: 21/29;
         background-position: center;
         background-size: cover;
     }
@@ -980,107 +1113,141 @@ a {
     .grid-item-5 {
         background-image: url('./assets/9.jpg');
         grid-column: 7/11;
-        grid-row: 8/16;
+        grid-row: 4/19;
         background-position: center;
         background-size: cover;
     }
 
     .services-heading {
         font-size: 1.875rem;
+        line-height: 2.25rem;
         font-weight: 200;
+        margin: 2rem 0;
     }
     
     .services-info {
         font-size: 1.25rem;
+        line-height: 1.75rem;
     }
 
     
     .service-1-info {
         font-size: 1.125rem;
+        line-height: 1.75rem;
         font-weight: 200;
     }
 
     
     .service-2-info {
         font-size: 1.125rem;
+        line-height: 1.75rem;
         font-weight: 200;
     }
     
     
     .service-3-info {
         font-size: 1.125rem;
+        line-height: 1.75rem;
         font-weight: 200;
+    }
+
+    .testimonials-heading {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        font-weight: 200;
+        margin: 2rem 0;
     }
 
     .testimonial-info {
         font-size: 1rem;
+        line-height: 1.5rem;
         font-weight: 200;
     }
     
     .testimonial-info-two {
         font-size: 1rem;
+        line-height: 1.5rem;
     }
 
     .contact-us-heading {
         font-size: 1.25rem;
+        line-height: 1.75rem;
         font-weight: 200;
     }
     
     .contact-us-info {
-        font-size: 1.75rem;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
     }
 
     .contact-us-send-icon {
-        font-size: 2rem;
+        font-size: 2.25rem;
+        line-height: 1rem;
+    }
+
+    .contact-us-form input {
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
 
     .contact-us-terms {
         font-size: 1rem;
+        line-height: 1.5rem;
     }
 
     .footer-heading {
         font-size: 1.125rem;
-
+        line-height: 1.75rem;
     }
     
     .footer-para {
         font-size: 1.25rem;
-
+        line-height: 1.75rem;
     }
     
     .footer-icon {
         font-size: 1.25rem;
+        line-height: 1.75rem;
     }
 
     .footer-info-2 {
-        font-size: 0.75rem;
-
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
     
     .footer-info-2 span {
-        font-size: 1.125rem; 
+        font-size: 1rem; 
+        line-height: 1.75rem;
     }
 }
 
 @media (max-width: 640px) {
     .navbar .nav-container a {
         font-weight: 500;
-        font-size: 2rem;
+        font-size: 2.25rem;
+        line-height: 2.5rem;
         padding: 0.7rem;
     }
 
     .hero-heading {
-        font-size: 2.5rem;
-        line-height: 2.25rem;
+        font-size: 2.25rem;
+        line-height: 2.5rem;
     }
 
     .about-heading {
-        font-size: 1.75rem;
-        line-height: 2.5rem;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        margin: 1rem 0;
     }
 
     .about-info {
         font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
+    .primary-btn {
+        font-size: 1rem;
+        font-size: 0.875rem;
     }
     
     .photo-grid {
@@ -1125,82 +1292,106 @@ a {
     .grid-item-5 {
         background-image: url('./assets/9.jpg');
         grid-column: 7/11;
-        grid-row: 8/16;
+        grid-row: 4/16;
         background-position: center;
         background-size: cover;
     }
 
     .services-heading {
-        font-size: 1.75rem;
-        font-weight: 200;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        margin: 1rem 0;
     }
     
     .services-info {
         font-size: 1.125rem;
+        line-height: 1.75rem;
     }
 
     .service-1-info {
         font-size: 1rem;
+        line-height: 1.5rem;
         font-weight: 200;
     }
     
     .service-2-info {
         font-size: 1rem;
+        line-height: 1.5rem;
         font-weight: 200;
     }
     
     .service-3-info {
         font-size: 1rem;
+        line-height: 1.5rem;
         font-weight: 200;
+    }
+
+    .testimonials-heading {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        font-weight: 200;
+        margin: 1rem 0;
     }
 
     .testimonial-info {
         font-size: 0.875rem;
+        line-height: 1.25rem;
         font-weight: 200;
     }
     
     .testimonial-info-two {
         font-size: 0.875rem;
-
+        line-height: 1.25rem;
     }
 
     .contact-us-heading {
         font-size: 1.125rem;
+        line-height: 1.75rem;
         font-weight: 200;
     }
     
     .contact-us-info {
         font-size: 1.5rem;
+        line-height: 2rem;
     }
 
     .contact-us-send-icon {
         font-size: 1.875rem;
+        line-height: 1rem;
+    }
+
+    .contact-us-form input {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
     }
 
     .contact-us-terms {
         font-size: 0.875rem;
+        line-height: 1.25rem;
     }
 
     .footer-heading {
         font-size: 1rem;
-
+        line-height: 1.5rem;
     }
     
     .footer-para {
         font-size: 1.125rem;
-
+        line-height: 1.75rem;
     }
     
     .footer-icon {
         font-size: 1.125rem;
+        line-height: 1.75rem;
     }
 
     .footer-info-2 {
-        font-size: 0.5rem;
-
+        font-size: 0.75rem;
+        line-height: 1rem;
     }
     
     .footer-info-2 span {
         font-size: 1rem; 
+        line-height: 1.5rem;
     }
 }
