@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Gudea&family=Trochut&display=swap');
 
 * {
@@ -1509,3 +1510,28 @@ a {
         line-height: 1.5rem;
     }
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: box-border;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;  
+    background-position: center 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92vh;
+    margin: 1rem;
+    /* padding: 10px 0px; */
+}
+
+.hero img {
+    width: 100%;
+    /* margin: 2rem; */
+}
+>>>>>>> 74ffb64 (Project initialized)
