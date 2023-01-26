@@ -1517,6 +1517,227 @@ a {
     box-sizing: box-border;
 }
 
+a {
+    text-decoration: none;
+}
+
+li i {
+    color: black;
+}
+
+nav {
+    /* position: fixed; */
+    /* z-index: 20; */
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-container {
+    width: 95vw;
+}
+
+.container {
+    max-width: 1050px;
+    width: 90px;
+    margin: auto;
+    height: 100%;
+    position: absolute;
+}
+
+.navbar {
+    width: 100vw;
+    /* box-shadow: 0 5px 4px rgb(146 161 176 / 15%); */
+    height: 100%;
+}
+
+/* .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+} */
+
+/* .nav-container-two {
+    display: flex;
+    flex-direction: row;;
+} */
+
+.navbar .menu-items {
+    display: flex;
+}
+
+.navbar .nav-container a {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 500;
+    font-size: 1.75rem;
+    padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover {
+    text-decoration: underline;
+    color: #87D7E8;
+}
+
+.nav-container {
+    display: block;
+    position: relative;
+    height: 10px;
+}
+
+.nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 20px;
+    left: 7px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 20px;
+    left: 7px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+}
+.nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+    width: 75%;
+}
+.nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+    width: 50%;
+}
+
+.navbar .menu-items {
+    padding-top: 60px;
+    height: 100vh;
+    width: 100%;
+    transform: translate(-200%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    transition: transform 1.5s ease-in-out;
+    text-align: center;
+    list-style-type: none;
+    background-color: black;
+    background-image: url('./assets/svg/8.svg');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: start;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar .menu-items li {
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    margin-left: 0.5rem;
+}
+
+.navbar .menu-sub-items li {
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Times New Roman";
+    color: #FFFFFF;
+}
+
+.navbar .menu-sub-items li i {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 0.75rem;
+    color: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 2.25rem;
+    color: black;
+}
+
+.logo img {
+    font-size: 2.25rem;
+    cursor: pointer;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+    transition: transform 0.5s;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+    width: 100%;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+    transition: transform 0.5s;
+    width: 100%;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+    width: 100%;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .logo {
+    display: none;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line {
+    background: #FFFFFF;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0 1.25rem;
+    padding: 0;
+}
+
+.menu-items .ruva-cleans {
+    font-family: "Open Sans";
+}
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -1526,7 +1747,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     height: 92vh;
-    margin: 1rem;
+    /* margin: 1rem; */
     /* padding: 10px 0px; */
 }
 
